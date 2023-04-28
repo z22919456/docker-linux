@@ -1,0 +1,28 @@
+# 指令
+
+## 建立image
+```
+make build
+```
+## 開啟container
+```
+make start
+```
+
+## 進入container
+```
+make login
+```
+
+# 設定
+以下設定可修改
+```
+# makefile
+
+imageName=linux/rockey # image 的名字
+containerName=rockey-2 # container 的名字
+username=Arthur # 建立後username
+```
+
+# 安裝node 
+請至家目錄 執行 node_install.sh
